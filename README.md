@@ -1,4 +1,4 @@
-# sap-sqlalchemy-connect
+# SAP4HANA to PostgreSQL with sqlalchemy 
 
 Migrates table `MARA` from Hana to Postgres
 
