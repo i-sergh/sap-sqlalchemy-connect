@@ -1,0 +1,23 @@
+version: '3.0'
+
+services:
+  postgres_db:
+    image: postgres:15-alpine
+    container_name: postgres_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    ports:
+      - "5434:5432"
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=mara_db
+    networks:
+      - app_network  
+
+volumes:
+  postgres_data:
+
+networks:
+  app_network:
+    driver: bridge
