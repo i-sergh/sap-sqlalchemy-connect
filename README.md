@@ -1,5 +1,7 @@
 # sap-sqlalchemy-connect
 
+Migrates table `MARA` from Hana to Postgres
+
 # Attention!
  You need to create `.env` file wich contents:
 
@@ -18,3 +20,22 @@ HANA_USER=your_hana_user
 HANA_PASS=your_hana_pass
 
 ```
+
+## Installation
+Install requirements with
+
+```
+python -m pip install -r requirements.txt 
+```
+
+If you need postgres, run with docker compose
+
+```
+sudo docker-compose up -d
+```
+Then cheate table `mara`. Sql query is in folder `SQL`
+
+There is no Hana compose in this package .-.
+
+##
+
