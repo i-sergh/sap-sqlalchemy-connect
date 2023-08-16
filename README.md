@@ -35,7 +35,15 @@ sudo docker-compose up -d
 ```
 Then cheate table `mara`. Sql query is in folder `SQL`
 
-There is no Hana compose in this package .-.
+There is no Hana in this compose .-.
+
+# Launch
+
+Just
+
+```
+python main.py
+```
 
 ##
 
