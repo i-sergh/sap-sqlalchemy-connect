@@ -1,6 +1,6 @@
 # sap-sqlalchemy-connect
 
-# Atention!
+# Attention!
  You need to create `.env` file wich contents:
 
 ```
