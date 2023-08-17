@@ -3,7 +3,7 @@ from pgdb import  SessionPg
 
 from models import HanaMARA, PgMARA 
 
-from sqlalchemy import text, select, Insert
+from sqlalchemy import select, Insert
 
 
 with SessionHana() as session:    
